@@ -1,0 +1,76 @@
+.container{
+    height: 500px;
+    background-color: #fff;
+}
+.text,h1{
+   text-align: center;
+   color: rgb(75, 64, 226);
+}
+img{
+    width: 150px;
+    height: 150px;
+    margin-left: 50px;
+}
+.title1{
+    margin-left: 50px;
+    margin-top: 300px;
+}
+.price1{
+    margin-left: 50px;
+    color: rgb(215, 60, 114);
+}
+.box-img1 {
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 10px;
+}
+.box-img2{
+    position: absolute;
+    margin-top: -300px;
+    margin-left: 400px;
+}
+.title2 {
+    position: absolute;
+    margin-top: -85px;
+    margin-left: 450px;
+}
+.price2{
+    position: absolute;
+    margin-top: -50px;
+    margin-left:450px;
+    color: rgb(215, 60, 114);
+}
+
+.box-img3 {
+    position: absolute;
+    margin-top: -300px;
+    margin-left: 800px;
+}
+.title3{
+    position: absolute;
+    margin-top: -85px;
+    margin-left:800px;
+}
+.price3{
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 800px;
+    color: rgb(215, 60, 114);
+}
+
+.box-img4 {
+    position: absolute;
+    margin-top: -300px;
+    margin-left: 1200px;
+}
+.title4{
+    position: absolute;
+    margin-top: -85px;
+    margin-left: 1200px;
+}
+.price4{
+    position: absolute;
+    margin-top: -50px;
+    margin-left:1200px;
+    color: rgb(215, 60, 114);
+}

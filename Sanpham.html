@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Sp.css">
+    <title>Sam pham</title>
+   
+</head>
+<body>
+    <div class="container">
+        <h1>SẢN PHẨM CỦA CHÚNG TÔI</h1>
+        <div class="text">
+            Đền 10 lần giá trị đơn hàng nếu không đúng da thật
+        </div>
+        <script>
+            var ThoiTrang = [
+                {
+                    image: "<div class='box-img1'><img src='https://bizweb.dktcdn.net/thumb/large/100/430/435/products/staad-14-2000x.jpg?v=1628564369000' id='img'></div>",
+                    title: "<div class='title1'> <b> <p>Túi đựng laptop Back Pack</p></div>",
+                    price: "<div class='price1'><p>300.000Đ</p></div>"
+                },
+                {
+                    image: "<div class='box-img2'><img src='https://bizweb.dktcdn.net/thumb/large/100/430/435/products/that-lung-quan-jean-cao-cap-dj625-cf-2.jpg?v=1629269200000' id='img'></div>",
+                    title: "<div class='title2'><p>Thắt lưng quần jean mặt <br> khóa xỏ kim DJ625-CF</p></div>",
+                    price: "<div class='price2'><p>200.000Đ</p></div>"
+                },
+                {
+                    image: "<div class='box-img3'><img src='https://bizweb.dktcdn.net/thumb/large/100/430/435/products/vntan-31n-compressed.jpg?v=1629269388000' id='img'></div>",
+                    title: "<div class='title3'><p>Ví nam dáng ngang cổ điển VNTAN-31N</p></div>",
+                    price: "<div class='price3'><p>500.000Đ</p></div>"
+                },
+                {
+                    image: "<div class='box-img4'><img src='https://bizweb.dktcdn.net/thumb/large/100/430/435/products/giay-tay-nam-buoc-day-van-da-gnta2695-n-5.jpg?v=1629269613000' id='img'></div>",
+                    title: "<div class='title4'><p>Giày tây nam buộc dây vân da GNTA2695-N</p></div>",
+                    price: "<div class='price4'><p>500.000Đ</p></div>"
+                }
+            ]
+
+            for (n in ThoiTrang){
+                for(i in ThoiTrang){
+                    document.write(ThoiTrang[n].image);
+                    break;   
+                }
+                for(i in ThoiTrang){
+                    document.write(ThoiTrang[n].title);
+                    break;  
+                }
+                for(i in ThoiTrang){
+                    document.write(ThoiTrang[n].price);
+                    break;  
+                }               
+            }
+        </script>
+        </div>
+</body>
+</html>
